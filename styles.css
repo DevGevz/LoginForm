@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background:rgba(220, 220, 220, 0.8);
+    text-align: center;
+    width: max-content;
+    margin-inline: auto;
+    /* margin-top: 10%; */
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.login-form, .register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.inactive{
+    display: none;
+}
+
+h2{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+label{
+    font-size: clamp(1rem, 1.7rem, 3rem);
+    color: black;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+
+input{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: rgb(233, 189, 189);
+    font-size: 20px;
+    margin-left: -1vw;
+}
+
+input:hover{
+    background: rgb(255, 184, 184);
+}
+
+span{
+    text-decoration: underline;
+    transform: 0.8s ease;
+}
+
+span:hover{
+    color: rgb(64, 12, 255);
+    cursor: pointer;
+}
